@@ -50,3 +50,7 @@ res<-map_dfr(1:3,~chamada(ente[.x]))
 res
 
 View(res)
+
+head(res)
+
+summary(res)
